@@ -1,22 +1,19 @@
 import React from "react";
+import { useHistory, Link } from "react-router-dom";
 
 const Home = props => {
     return (
-        <div className="home">
-            <div className="wave">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#ffffff" fill-opacity="1" d="M0,0L21.8,16C43.6,32,87,64,131,85.3C174.5,107,218,117,262,106.7C305.5,96,349,64,393,85.3C436.4,107,480,181,524,218.7C567.3,256,611,256,655,234.7C698.2,213,742,171,785,176C829.1,181,873,235,916,218.7C960,203,1004,117,1047,106.7C1090.9,96,1135,160,1178,181.3C1221.8,203,1265,181,1309,165.3C1352.7,149,1396,139,1418,133.3L1440,128L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z">
-                    </path>
-                </svg>
-            </div>
-            <div className="title">
-                <div className="name">
-                    <h2>Adrian Hartley</h2>
-                    <h3>Full Stack Web Developer</h3>
+        <>
+            <div id="home"></div>
+            <div className="sect">
+                <div className="title">
+                    <div className="name">
+                        <h2>Adrian Hartley</h2>
+                        <h3>Full Stack Web Developer</h3>
+                    </div>
                 </div>
-                <div className="next">→</div>
             </div>
-        </div>
+        </>
     )
 }
 
